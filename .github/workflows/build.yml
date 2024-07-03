@@ -21,7 +21,7 @@ jobs:
         run: env
 
       - name: 签出存储库
-        uses: actions/checkout@v3
+        uses: Kir-Antipov/mc-publish@v3.3
         with:
           submodules: true
 
