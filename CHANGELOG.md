@@ -4,7 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/lang/zh-CN/).
 
-## [1802.2.3]
+
+## [1802.3.0]
+
+### Fixed
+* Change the wrong Capital lang files(for example: en_US.json => en_us.json)
+
+## [1802.2.3]  [YANKED]
 
 ### Added
 * Add the multilanguage support. (`assets/ftbessentials/lang/en_us.json`) and make the majority of 
