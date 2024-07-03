@@ -21,7 +21,7 @@ jobs:
         run: env
 
       - name: 签出存储库
-        uses: Kir-Antipov/mc-publish@v3.3
+        uses: actions/checkout@v3
         with:
           submodules: true
 
@@ -39,7 +39,7 @@ jobs:
         run: ./gradlew clean build
 
       - name: 发布（CurseForge/Modrinth/Github）
-        uses: Kir-Antipov/mc-publish@v3.2
+        uses: Kir-Antipov/mc-publish@v3.3
         with:
           curseforge-id: 1055709
           curseforge-token: "${{env.CURSEFORGE_TOKEN}}"
